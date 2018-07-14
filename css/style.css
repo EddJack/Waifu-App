@@ -1,0 +1,65 @@
+.pink-text {
+    color: pink;
+    border-color: black;
+    border-width: 1px;
+    text-align: center;
+}
+
+.gold-text{
+    color: gold;
+    border-color: black;
+    border-width: 1px;
+    text-align: right;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.round-image-border{
+    border-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    align-self: center;
+    width: 200px;
+}
+
+body {
+    background: f4f4f4;
+    margin:auto;
+    width: 100%;
+}
+p {
+    font-size: 16px;
+    font-family: Raleway;
+}
+ul {
+    font-size: 16px;
+    font-family: Raleway;
+}
+ol {
+    font-size: 16px;
+    font-family: Raleway;
+}
+form {
+    font-size: 16px;
+    font-family: Raleway;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    color: hotpink;
+    font-size: 30px;
+    font-family: Lobster, cursive;
+    background-color: aqua;
+    padding: 50px;
+    text-align: left;
+}
+h3 {
+    font-size: 20px;
+    font-family: Raleway;
+}

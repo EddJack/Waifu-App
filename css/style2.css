@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Raleway');
+
+
+body{
+  font: 15px/1.5 Raleway;
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.round-image-border{
+    border-color: pink;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 50%;
+    align-self: center;
+    width: 200px;
+}
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  background: aqua;
+  color: hotpink;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: hotpink 3px solid;
+}
+
+header a{
+  color: hotpink;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0;
+  font-family: Lobster;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+.current{
+  font-weight: 900;
+}
